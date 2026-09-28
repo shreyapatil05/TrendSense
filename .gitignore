@@ -1,0 +1,126 @@
+# =========================================================
+# Python cache
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================================================
+# Virtual environments
+# =========================================================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================================================
+# Environment variables and secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+# API keys and local secret files
+secrets/
+*.key
+*.pem
+
+# =========================================================
+# IDE settings
+# =========================================================
+
+.vscode/
+.idea/
+
+# =========================================================
+# Operating-system files
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Logs and temporary files
+# =========================================================
+
+*.log
+*.tmp
+*.temp
+~$*
+memory/
+
+# =========================================================
+# Python build files
+# =========================================================
+
+build/
+dist/
+*.egg-info/
+
+# =========================================================
+# Jupyter Notebook checkpoints
+# =========================================================
+
+.ipynb_checkpoints/
+
+# =========================================================
+# Downloaded and generated ML models
+# =========================================================
+
+models/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# =========================================================
+# Generated datasets and experiments
+# =========================================================
+
+data/raw/
+data/processed/
+data/historical/
+data/v4/selections/
+data/v4/experiments/
+data/v4/forecast_tracking/
+data/evaluation/
+data/history/
+
+# Forecast tracking files generated during execution
+forecasts.jsonl
+outcomes.jsonl
+outcome_pending.json
+live_evaluation.json
+
+# =========================================================
+# Generated plots and reports
+# =========================================================
+
+plots/
+reports/generated/
+
+# =========================================================
+# Coverage files
+# =========================================================
+
+.coverage
+htmlcov/
+coverage.xml
+
+# =========================================================
+# Keep important project examples and documentation
+# =========================================================
+
+!.env.example
+!run_config.json
+!examples/**/*.json

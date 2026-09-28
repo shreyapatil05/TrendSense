@@ -1,0 +1,12 @@
+requests>=2.31,<3
+feedparser>=6.0,<7
+pytrends>=4.9,<5
+python-dotenv>=1.0,<2
+pytest>=8,<9
+pandas>=2.2,<3
+numpy>=2.0,<3
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+sentence-transformers>=3,<6
+torch>=2.2
+matplotlib>=3.8,<4

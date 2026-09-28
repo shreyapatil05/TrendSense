@@ -1,0 +1,13 @@
+{
+  "industry": "fashion",
+  "keywords": {"selection_mode": "manual", "selected": ["co-ord set", "kurta set", "sharara set", "wide leg pants", "maxi skirt", "corset top", "shirt dress", "cottagecore", "quiet luxury", "Y2K fashion"], "preset_name": null},
+  "collection": {"country": "IN", "language": "en-IN", "history_days": 90, "batch_size": 5, "delay_seconds": 10, "max_retries": 3},
+  "window": {"analysis_days": 90, "test_days": 14, "end_date": "latest_complete", "feature_warmup_days": 21},
+  "forecast": {"horizon_days": 2, "verification_delay_days": 2},
+  "thresholds": {"method": "mad", "lookback_days": 21, "multiplier": 1.0, "candidate_multipliers": [0.6, 0.8, 1.0, 1.2, 1.4], "percentile": 0.75, "auto_select": true, "candidate_methods": ["mad", "iqr", "zscore", "percentile"]},
+  "validation": {"n_splits": 3, "search_iterations": 12, "random_state": 42, "promotion_min_delta": 0.0},
+  "models": {"candidates": ["logistic_regression", "random_forest", "svm", "xgboost"]},
+  "recommendation": {"require_text_evidence": true},
+  "evaluation": {"minimum_overlap_points": 7, "allow_approximate_rebasing": true},
+  "paths": {"root": "data/v4"}
+}

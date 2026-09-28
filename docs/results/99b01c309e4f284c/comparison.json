@@ -1,0 +1,1445 @@
+{
+  "system_version": "4.0.0",
+  "experiment_id": "99b01c309e4f284c",
+  "trained_at": "2026-09-27T11:10:04.258891+00:00",
+  "window_end": "2026-09-26T00:00:00+00:00",
+  "window_start": "2026-08-18 00:00:00+00:00",
+  "test_start": "2026-09-17T00:00:00+00:00",
+  "nominal_train_days": 30,
+  "training_rows_after_purge": 1515,
+  "test_rows": 531,
+  "class_counts": {
+    "STABLE": 1331,
+    "UP": 426,
+    "DOWN": 400
+  },
+  "coverage": {
+    "co-ord set": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 8
+    },
+    "kurta set": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "sharara set": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "palazzo set": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "anarkali dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "chikankari kurti": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "mirror work dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 29
+    },
+    "bandhani dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 22
+    },
+    "phulkari dupatta": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 28
+    },
+    "saree draping": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "pre-draped saree": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 37
+    },
+    "organza saree": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "linen saree": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 11
+    },
+    "sequin saree": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 27
+    },
+    "lehenga skirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 16
+    },
+    "indo western dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "ethnic fusion wear": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "kaftan dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 11
+    },
+    "festive wear": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 10
+    },
+    "wedding guest dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 27
+    },
+    "wide leg pants": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "cargo pants": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "parachute pants": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "flared jeans": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 2
+    },
+    "baggy jeans": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "straight leg jeans": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 17
+    },
+    "low rise jeans": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 25
+    },
+    "denim skirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "maxi skirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 11
+    },
+    "pleated skirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 13
+    },
+    "mini skirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "shirt dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "slip dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 21
+    },
+    "bodycon dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "maxi dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "corset top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "crop top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "tube top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "halter neck top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "oversized shirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "graphic t shirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 26
+    },
+    "baby tee": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 22
+    },
+    "polo t shirt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "tank top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "off shoulder top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "blazer dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 4
+    },
+    "oversized blazer": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 33
+    },
+    "trench coat": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "bomber jacket": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "denim jacket": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "leather jacket": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "puffer jacket": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "crochet top": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "crochet dress": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 22
+    },
+    "knit vest": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 38
+    },
+    "cardigan outfit": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 34
+    },
+    "hoodie outfit": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 30
+    },
+    "tracksuit women": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 26
+    },
+    "athleisure wear": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 29
+    },
+    "gym wear women": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "Y2K fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 29
+    },
+    "quiet luxury": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 26
+    },
+    "old money style": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 28
+    },
+    "cottagecore fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "streetwear fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 29
+    },
+    "Korean fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 27
+    },
+    "minimalist fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 30
+    },
+    "sustainable fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 5
+    },
+    "vintage fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 23
+    },
+    "retro fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "grunge fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 39
+    },
+    "boho fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 37
+    },
+    "preppy fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "balletcore": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "gorpcore": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 32
+    },
+    "normcore": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 39
+    },
+    "dopamine dressing": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "monochrome outfit": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 32
+    },
+    "capsule wardrobe": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 6
+    },
+    "gender neutral fashion": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 40
+    },
+    "chunky sneakers": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 9
+    },
+    "platform shoes": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "loafers women": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 13
+    },
+    "ballet flats": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 15
+    },
+    "cowboy boots": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 27
+    },
+    "knee high boots": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "kitten heels": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "block heels": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "tote bag": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "shoulder bag": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "sling bag": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "mini bag": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "bucket bag": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 23
+    },
+    "statement earrings": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 25
+    },
+    "layered necklace": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "chunky jewellery": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 34
+    },
+    "sunglasses women": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "bucket hat": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 22
+    },
+    "silk scarf": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 26
+    },
+    "waist belt": {
+      "observed_days": 40,
+      "missing_days": 0,
+      "zero_days": 0
+    }
+  },
+  "window_rows": 4000,
+  "labeled_rows": 2157,
+  "excluded_classification_rows": 1843,
+  "target_definition": "causal per-keyword rolling variability band; excludes zero-scale labels",
+  "classifier": "seasonal_naive",
+  "regressor": "svm",
+  "recommendation_cutoffs": {
+    "UP": null,
+    "DOWN": null
+  },
+  "models": {
+    "persistence": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5939982347749339,
+          "macro_f1": 0.24843115540789962,
+          "balanced_accuracy": 0.3333333333333333,
+          "per_label": {
+            "UP": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.5939982347749339,
+              "recall": 1.0,
+              "f1": 0.7452934662236989,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 0,
+              "STABLE": 235,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 0,
+              "STABLE": 673,
+              "DOWN": 0
+            },
+            "DOWN": {
+              "UP": 0,
+              "STABLE": 225,
+              "DOWN": 0
+            }
+          }
+        },
+        "regression": {
+          "mae": 9.796999117387466,
+          "rmse": 16.723914625121402
+        },
+        "rows": 1133
+      },
+      "params": {},
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6026365348399246,
+          "macro_f1": 0.2506854680767724,
+          "balanced_accuracy": 0.3333333333333333,
+          "per_label": {
+            "UP": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.6026365348399246,
+              "recall": 1.0,
+              "f1": 0.7520564042303172,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 0,
+              "STABLE": 113,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 0,
+              "STABLE": 320,
+              "DOWN": 0
+            },
+            "DOWN": {
+              "UP": 0,
+              "STABLE": 98,
+              "DOWN": 0
+            }
+          }
+        },
+        "regression": {
+          "mae": 6.387947269303202,
+          "rmse": 10.397015361963811
+        },
+        "rows": 531
+      }
+    },
+    "seasonal_naive": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6354810238305384,
+          "macro_f1": 0.5991963879430074,
+          "balanced_accuracy": 0.6120213527048594,
+          "per_label": {
+            "UP": {
+              "precision": 0.5573122529644269,
+              "recall": 0.6,
+              "f1": 0.5778688524590164,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.7361563517915309,
+              "recall": 0.6716196136701337,
+              "f1": 0.7024087024087023,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.4774436090225564,
+              "recall": 0.5644444444444444,
+              "f1": 0.5173116089613036,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 141,
+              "STABLE": 76,
+              "DOWN": 18
+            },
+            "STABLE": {
+              "UP": 100,
+              "STABLE": 452,
+              "DOWN": 121
+            },
+            "DOWN": {
+              "UP": 12,
+              "STABLE": 86,
+              "DOWN": 127
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.667255075022066,
+          "rmse": 15.257021302637229
+        },
+        "rows": 1133
+      },
+      "params": {},
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.5612052730696798,
+          "macro_f1": 0.47528358953661515,
+          "balanced_accuracy": 0.4969081105893685,
+          "per_label": {
+            "UP": {
+              "precision": 0.44242424242424244,
+              "recall": 0.6460176991150443,
+              "f1": 0.5251798561151079,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.740072202166065,
+              "recall": 0.640625,
+              "f1": 0.6867671691792295,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.2247191011235955,
+              "recall": 0.20408163265306123,
+              "f1": 0.21390374331550802,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 73,
+              "STABLE": 33,
+              "DOWN": 7
+            },
+            "STABLE": {
+              "UP": 53,
+              "STABLE": 205,
+              "DOWN": 62
+            },
+            "DOWN": {
+              "UP": 39,
+              "STABLE": 39,
+              "DOWN": 20
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.124293785310735,
+          "rmse": 13.13539517498477
+        },
+        "rows": 531
+      }
+    },
+    "logistic_regression": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5383936451897617,
+          "macro_f1": 0.535887408027258,
+          "balanced_accuracy": 0.5992515078386534,
+          "per_label": {
+            "UP": {
+              "precision": 0.4578313253012048,
+              "recall": 0.6468085106382979,
+              "f1": 0.5361552028218696,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.7136038186157518,
+              "recall": 0.4442793462109955,
+              "f1": 0.5476190476190476,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.4162303664921466,
+              "recall": 0.7066666666666667,
+              "f1": 0.5238879736408567,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 152,
+              "STABLE": 66,
+              "DOWN": 17
+            },
+            "STABLE": {
+              "UP": 168,
+              "STABLE": 299,
+              "DOWN": 206
+            },
+            "DOWN": {
+              "UP": 12,
+              "STABLE": 54,
+              "DOWN": 159
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.706737608872507,
+          "rmse": 12.313108233746734
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "class_weight": "balanced",
+          "C": 10.0
+        },
+        "regressor": {
+          "class_weight": null,
+          "C": 1.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.3502824858757062,
+          "macro_f1": 0.3185837166292503,
+          "balanced_accuracy": 0.33288615224851004,
+          "per_label": {
+            "UP": {
+              "precision": 0.1794871794871795,
+              "recall": 0.37168141592920356,
+              "f1": 0.24207492795389046,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.5979899497487438,
+              "recall": 0.371875,
+              "f1": 0.4585741811175338,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.25510204081632654,
+              "recall": 0.25510204081632654,
+              "f1": 0.25510204081632654,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 42,
+              "STABLE": 65,
+              "DOWN": 6
+            },
+            "STABLE": {
+              "UP": 134,
+              "STABLE": 119,
+              "DOWN": 67
+            },
+            "DOWN": {
+              "UP": 58,
+              "STABLE": 15,
+              "DOWN": 25
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.759749322675134,
+          "rmse": 10.784293587257315
+        },
+        "rows": 531
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6345984112974404,
+          "macro_f1": 0.47642343037079876,
+          "balanced_accuracy": 0.45823461981155383,
+          "per_label": {
+            "UP": {
+              "precision": 0.6067415730337079,
+              "recall": 0.2297872340425532,
+              "f1": 0.3333333333333333,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.6341968911917099,
+              "recall": 0.9093610698365527,
+              "f1": 0.7472527472527473,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.6708860759493671,
+              "recall": 0.23555555555555555,
+              "f1": 0.34868421052631576,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 54,
+              "STABLE": 181,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 35,
+              "STABLE": 612,
+              "DOWN": 26
+            },
+            "DOWN": {
+              "UP": 0,
+              "STABLE": 172,
+              "DOWN": 53
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.866238734627279,
+          "rmse": 13.14737269459411
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "min_samples_leaf": 15,
+          "max_depth": null,
+          "class_weight": null
+        },
+        "regressor": {
+          "min_samples_leaf": 15,
+          "max_depth": null,
+          "class_weight": null
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.5706214689265536,
+          "macro_f1": 0.28531462262805546,
+          "balanced_accuracy": 0.3322450108361929,
+          "per_label": {
+            "UP": {
+              "precision": 0.14285714285714285,
+              "recall": 0.04424778761061947,
+              "f1": 0.06756756756756756,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.609504132231405,
+              "recall": 0.921875,
+              "f1": 0.7338308457711443,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.25,
+              "recall": 0.030612244897959183,
+              "f1": 0.05454545454545455,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 5,
+              "STABLE": 107,
+              "DOWN": 1
+            },
+            "STABLE": {
+              "UP": 17,
+              "STABLE": 295,
+              "DOWN": 8
+            },
+            "DOWN": {
+              "UP": 13,
+              "STABLE": 82,
+              "DOWN": 3
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.271806171318894,
+          "rmse": 11.08519759801865
+        },
+        "rows": 531
+      }
+    },
+    "gradient_boosting": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6240070609002648,
+          "macro_f1": 0.5373332092682321,
+          "balanced_accuracy": 0.5162852194928322,
+          "per_label": {
+            "UP": {
+              "precision": 0.5209580838323353,
+              "recall": 0.3702127659574468,
+              "f1": 0.43283582089552236,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.6539877300613497,
+              "recall": 0.7919762258543833,
+              "f1": 0.7163978494623656,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.5761589403973509,
+              "recall": 0.38666666666666666,
+              "f1": 0.4627659574468085,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 87,
+              "STABLE": 148,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 76,
+              "STABLE": 533,
+              "DOWN": 64
+            },
+            "DOWN": {
+              "UP": 4,
+              "STABLE": 134,
+              "DOWN": 87
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.851979713153604,
+          "rmse": 13.190099236610866
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "n_estimators": 120,
+          "max_depth": 2,
+          "learning_rate": 0.1
+        },
+        "regressor": {
+          "n_estimators": 60,
+          "max_depth": 2,
+          "learning_rate": 0.1
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.5536723163841808,
+          "macro_f1": 0.31466128520826975,
+          "balanced_accuracy": 0.34039303774607194,
+          "per_label": {
+            "UP": {
+              "precision": 0.16666666666666666,
+              "recall": 0.07079646017699115,
+              "f1": 0.09937888198757765,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.6083150984682714,
+              "recall": 0.86875,
+              "f1": 0.7155727155727155,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.3076923076923077,
+              "recall": 0.08163265306122448,
+              "f1": 0.12903225806451613,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 8,
+              "STABLE": 103,
+              "DOWN": 2
+            },
+            "STABLE": {
+              "UP": 26,
+              "STABLE": 278,
+              "DOWN": 16
+            },
+            "DOWN": {
+              "UP": 14,
+              "STABLE": 76,
+              "DOWN": 8
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.21005993973569,
+          "rmse": 10.69791935370878
+        },
+        "rows": 531
+      }
+    },
+    "svm": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5392762577228597,
+          "macro_f1": 0.5306404834013437,
+          "balanced_accuracy": 0.5806534845679988,
+          "per_label": {
+            "UP": {
+              "precision": 0.461038961038961,
+              "recall": 0.6042553191489362,
+              "f1": 0.5230202578268878,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.700218818380744,
+              "recall": 0.475482912332838,
+              "f1": 0.5663716814159292,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.4048913043478261,
+              "recall": 0.6622222222222223,
+              "f1": 0.5025295109612141,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 142,
+              "STABLE": 71,
+              "DOWN": 22
+            },
+            "STABLE": {
+              "UP": 156,
+              "STABLE": 320,
+              "DOWN": 197
+            },
+            "DOWN": {
+              "UP": 10,
+              "STABLE": 66,
+              "DOWN": 149
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.430739079655197,
+          "rmse": 11.978919396197327
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "kernel": "linear",
+          "class_weight": "balanced",
+          "C": 10.0
+        },
+        "regressor": {
+          "kernel": "linear",
+          "class_weight": "balanced",
+          "C": 10.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.3578154425612053,
+          "macro_f1": 0.30508860241759433,
+          "balanced_accuracy": 0.31245071037264466,
+          "per_label": {
+            "UP": {
+              "precision": 0.16810344827586207,
+              "recall": 0.34513274336283184,
+              "f1": 0.22608695652173913,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.5982142857142857,
+              "recall": 0.41875,
+              "f1": 0.49264705882352944,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.22666666666666666,
+              "recall": 0.17346938775510204,
+              "f1": 0.19653179190751444,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 39,
+              "STABLE": 69,
+              "DOWN": 5
+            },
+            "STABLE": {
+              "UP": 133,
+              "STABLE": 134,
+              "DOWN": 53
+            },
+            "DOWN": {
+              "UP": 60,
+              "STABLE": 21,
+              "DOWN": 17
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.1403233081515145,
+          "rmse": 10.342355784144004
+        },
+        "rows": 531
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6275375110326566,
+          "macro_f1": 0.5257152650438984,
+          "balanced_accuracy": 0.5021316406666222,
+          "per_label": {
+            "UP": {
+              "precision": 0.5347222222222222,
+              "recall": 0.3276595744680851,
+              "f1": 0.4063324538258575,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.6479532163742691,
+              "recall": 0.8231797919762258,
+              "f1": 0.725130890052356,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.5970149253731343,
+              "recall": 0.35555555555555557,
+              "f1": 0.4456824512534818,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 77,
+              "STABLE": 158,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 65,
+              "STABLE": 554,
+              "DOWN": 54
+            },
+            "DOWN": {
+              "UP": 2,
+              "STABLE": 143,
+              "DOWN": 80
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.675467886652772,
+          "rmse": 12.847868948939526
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "reg_lambda": 5.0,
+          "max_depth": 2,
+          "learning_rate": 0.1
+        },
+        "regressor": {
+          "reg_lambda": 5.0,
+          "max_depth": 2,
+          "learning_rate": 0.1
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.559322033898305,
+          "macro_f1": 0.2946252969449201,
+          "balanced_accuracy": 0.33217107639515986,
+          "per_label": {
+            "UP": {
+              "precision": 0.14893617021276595,
+              "recall": 0.061946902654867256,
+              "f1": 0.08750000000000001,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.6124197002141327,
+              "recall": 0.89375,
+              "f1": 0.7268106734434561,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.23529411764705882,
+              "recall": 0.04081632653061224,
+              "f1": 0.06956521739130435,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 7,
+              "STABLE": 104,
+              "DOWN": 2
+            },
+            "STABLE": {
+              "UP": 23,
+              "STABLE": 286,
+              "DOWN": 11
+            },
+            "DOWN": {
+              "UP": 17,
+              "STABLE": 77,
+              "DOWN": 4
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.342184289942606,
+          "rmse": 10.941559860923899
+        },
+        "rows": 531
+      }
+    },
+    "lightgbm": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6257722859664607,
+          "macro_f1": 0.5445626367582239,
+          "balanced_accuracy": 0.526633342583518,
+          "per_label": {
+            "UP": {
+              "precision": 0.5248618784530387,
+              "recall": 0.40425531914893614,
+              "f1": 0.4567307692307693,
+              "support": 235
+            },
+            "STABLE": {
+              "precision": 0.6653992395437263,
+              "recall": 0.7800891530460624,
+              "f1": 0.7181942544459644,
+              "support": 673
+            },
+            "DOWN": {
+              "precision": 0.5460122699386503,
+              "recall": 0.39555555555555555,
+              "f1": 0.4587628865979381,
+              "support": 225
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 95,
+              "STABLE": 135,
+              "DOWN": 5
+            },
+            "STABLE": {
+              "UP": 79,
+              "STABLE": 525,
+              "DOWN": 69
+            },
+            "DOWN": {
+              "UP": 7,
+              "STABLE": 129,
+              "DOWN": 89
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.780840269722687,
+          "rmse": 12.807604526883127
+        },
+        "rows": 1133
+      },
+      "params": {
+        "classifier": {
+          "num_leaves": 15,
+          "min_child_samples": 20,
+          "learning_rate": 0.1
+        },
+        "regressor": {
+          "num_leaves": 15,
+          "min_child_samples": 10,
+          "learning_rate": 0.03
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.519774011299435,
+          "macro_f1": 0.36261541852003437,
+          "balanced_accuracy": 0.36834251399674917,
+          "per_label": {
+            "UP": {
+              "precision": 0.2803738317757009,
+              "recall": 0.26548672566371684,
+              "f1": 0.2727272727272727,
+              "support": 113
+            },
+            "STABLE": {
+              "precision": 0.6259946949602122,
+              "recall": 0.7375,
+              "f1": 0.6771879483500718,
+              "support": 320
+            },
+            "DOWN": {
+              "precision": 0.2127659574468085,
+              "recall": 0.10204081632653061,
+              "f1": 0.13793103448275862,
+              "support": 98
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 30,
+              "STABLE": 80,
+              "DOWN": 3
+            },
+            "STABLE": {
+              "UP": 50,
+              "STABLE": 236,
+              "DOWN": 34
+            },
+            "DOWN": {
+              "UP": 27,
+              "STABLE": 61,
+              "DOWN": 10
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.315324847324516,
+          "rmse": 11.080910655955446
+        },
+        "rows": 531
+      }
+    }
+  },
+  "skipped": {},
+  "warnings": [
+    "Historical Google Trends is a retrospectively normalized snapshot. This is a backtest, not prospective evidence.",
+    "Scores are uncalibrated. Recommendation tuning optimizes directional F1, not profit.",
+    "1843 window rows excluded from classification for missing features, immature targets or zero robust variability. See coverage."
+  ],
+  "folds": [
+    {
+      "train_origin_end": "2026-08-22 00:00:00+00:00",
+      "train_target_end": "2026-08-24 00:00:00+00:00",
+      "validation_origin_start": "2026-08-25 00:00:00+00:00",
+      "train_rows": 276,
+      "validation_rows": 373
+    },
+    {
+      "train_origin_end": "2026-08-29 00:00:00+00:00",
+      "train_target_end": "2026-08-31 00:00:00+00:00",
+      "validation_origin_start": "2026-09-01 00:00:00+00:00",
+      "train_rows": 647,
+      "validation_rows": 378
+    },
+    {
+      "train_origin_end": "2026-09-05 00:00:00+00:00",
+      "train_target_end": "2026-09-07 00:00:00+00:00",
+      "validation_origin_start": "2026-09-08 00:00:00+00:00",
+      "train_rows": 1024,
+      "validation_rows": 382
+    }
+  ],
+  "threshold_settings": {
+    "method": "mad",
+    "lookback_days": 21,
+    "multiplier": 1.0,
+    "percentile": 0.75
+  }
+}

@@ -1,0 +1,1380 @@
+{
+  "system_version": "4.2.0",
+  "experiment_id": "e9e256f497c858af",
+  "trained_at": "2026-09-27T17:33:55.354279+00:00",
+  "window_end": "2026-09-26T00:00:00+00:00",
+  "window_start": "2026-06-29 00:00:00+00:00",
+  "test_start": "2026-09-13T00:00:00+00:00",
+  "nominal_train_days": 76,
+  "training_rows_after_purge": 2005,
+  "test_rows": 421,
+  "class_counts": {
+    "STABLE": 1441,
+    "UP": 544,
+    "DOWN": 511
+  },
+  "coverage": {
+    "glass skin": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "dewy skin": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 72
+    },
+    "skin barrier repair": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 33
+    },
+    "ceramide moisturizer": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 6
+    },
+    "niacinamide serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "vitamin c serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "retinol serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "gentle retinol": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "bakuchiol serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 76
+    },
+    "hyaluronic acid serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 8
+    },
+    "peptide serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 7
+    },
+    "collagen skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 85
+    },
+    "PDRN skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 85
+    },
+    "centella skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 86
+    },
+    "beta glucan skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "spicule skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "skinimalism": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "sunscreen": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "tinted sunscreen": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "gel sunscreen": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "mineral sunscreen": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 3
+    },
+    "sunscreen stick": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 71
+    },
+    "acne patches": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 77
+    },
+    "salicylic acid serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "glycolic acid toner": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 24
+    },
+    "face serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 0
+    },
+    "blurred lips": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "lip tint": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "lip oil": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "tinted lip balm": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 14
+    },
+    "brown lip liner": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 56
+    },
+    "nude lipstick": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "red lipstick": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "cream blush": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 46
+    },
+    "liquid blush": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 26
+    },
+    "skin tint": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "cushion foundation": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 27
+    },
+    "soft glam makeup": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 78
+    },
+    "monochrome makeup": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 89
+    },
+    "bronzed makeup": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 89
+    },
+    "graphic eyeliner": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "colored mascara": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "brushed brows": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "laminated brows": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "glass hair": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 35
+    },
+    "scalp serum": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 3
+    },
+    "rosemary hair oil": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "bond repair haircare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "hair gloss": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 39
+    },
+    "heatless curls": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 79
+    },
+    "body mist": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "gourmand perfume": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 79
+    },
+    "hair perfume": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 12
+    },
+    "vanilla perfume": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 1
+    },
+    "Ayurvedic skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 86
+    },
+    "Korean skincare": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 43
+    },
+    "makeup skincare hybrid": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 90
+    },
+    "under eye patches": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 65
+    },
+    "lip mask": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 5
+    },
+    "face mist": {
+      "observed_days": 90,
+      "missing_days": 0,
+      "zero_days": 45
+    }
+  },
+  "window_rows": 5400,
+  "labeled_rows": 2496,
+  "excluded_classification_rows": 2904,
+  "target_definition": "causal per-keyword rolling variability band; excludes zero-scale labels",
+  "feature_design": "past-only level, lag, relative-change, relative-trend, rolling-z and calendar features",
+  "class_balancing": {
+    "method": "validation-tuned sample weights computed separately inside each training fold",
+    "candidate_alpha": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "alpha_meaning": {
+      "0.0": "unweighted",
+      "0.5": "moderate",
+      "1.0": "fully balanced"
+    },
+    "class_counts": {
+      "STABLE": 1093,
+      "UP": 472,
+      "DOWN": 440
+    },
+    "full_balance_weights": {
+      "STABLE": 0.6114669106434889,
+      "UP": 1.4159604519774012,
+      "DOWN": 1.518939393939394
+    },
+    "selected_alpha_by_model": {
+      "logistic_regression": 0.5,
+      "random_forest": 0.5,
+      "gradient_boosting": 0.5,
+      "svm": 0.5,
+      "xgboost": 0.5,
+      "lightgbm": 0.5
+    }
+  },
+  "classifier": "random_forest",
+  "regressor": "svm",
+  "recommendation_cutoffs": {
+    "UP": 0.31671108135465453,
+    "DOWN": 0.47348052391034323
+  },
+  "baseline_calibration": {
+    "persistence": {
+      "UP": {
+        "UP": 0.3333333333333333,
+        "STABLE": 0.3333333333333333,
+        "DOWN": 0.3333333333333333
+      },
+      "STABLE": {
+        "UP": 0.2299393122049899,
+        "STABLE": 0.5643964935940661,
+        "DOWN": 0.20566419420094403
+      },
+      "DOWN": {
+        "UP": 0.3333333333333333,
+        "STABLE": 0.3333333333333333,
+        "DOWN": 0.3333333333333333
+      }
+    },
+    "seasonal_naive": {
+      "UP": {
+        "UP": 0.5202312138728323,
+        "STABLE": 0.4393063583815029,
+        "DOWN": 0.04046242774566474
+      },
+      "STABLE": {
+        "UP": 0.17700258397932817,
+        "STABLE": 0.6873385012919897,
+        "DOWN": 0.13565891472868216
+      },
+      "DOWN": {
+        "UP": 0.07046070460704607,
+        "STABLE": 0.42005420054200543,
+        "DOWN": 0.5094850948509485
+      }
+    }
+  },
+  "models": {
+    "persistence": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5648648648648649,
+          "macro_f1": 0.24064478986758778,
+          "balanced_accuracy": 0.3333333333333333,
+          "per_label": {
+            "UP": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.5648648648648649,
+              "recall": 1.0,
+              "f1": 0.7219343696027634,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 0,
+              "STABLE": 340,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 0,
+              "STABLE": 836,
+              "DOWN": 0
+            },
+            "DOWN": {
+              "UP": 0,
+              "STABLE": 304,
+              "DOWN": 0
+            }
+          }
+        },
+        "regression": {
+          "mae": 9.41081081081081,
+          "rmse": 15.08346149962968
+        },
+        "rows": 1480
+      },
+      "params": {},
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.7149643705463183,
+          "macro_f1": 0.27793167128347185,
+          "balanced_accuracy": 0.3333333333333333,
+          "per_label": {
+            "UP": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.7149643705463183,
+              "recall": 1.0,
+              "f1": 0.8337950138504155,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 0,
+              "STABLE": 58,
+              "DOWN": 0
+            },
+            "STABLE": {
+              "UP": 0,
+              "STABLE": 301,
+              "DOWN": 0
+            },
+            "DOWN": {
+              "UP": 0,
+              "STABLE": 62,
+              "DOWN": 0
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.2042755344418055,
+          "rmse": 8.860625758720685
+        },
+        "rows": 421
+      }
+    },
+    "seasonal_naive": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.606081081081081,
+          "macro_f1": 0.5810752747127795,
+          "balanced_accuracy": 0.5922565437658317,
+          "per_label": {
+            "UP": {
+              "precision": 0.521865889212828,
+              "recall": 0.5264705882352941,
+              "f1": 0.5241581259150805,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.688715953307393,
+              "recall": 0.6351674641148325,
+              "f1": 0.6608587429993776,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.5109289617486339,
+              "recall": 0.6151315789473685,
+              "f1": 0.5582089552238806,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 179,
+              "STABLE": 136,
+              "DOWN": 25
+            },
+            "STABLE": {
+              "UP": 151,
+              "STABLE": 531,
+              "DOWN": 154
+            },
+            "DOWN": {
+              "UP": 13,
+              "STABLE": 104,
+              "DOWN": 187
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.720945945945946,
+          "rmse": 13.998190037441423
+        },
+        "rows": 1480
+      },
+      "params": {},
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6080760095011877,
+          "macro_f1": 0.4749211713167903,
+          "balanced_accuracy": 0.5199440254152208,
+          "per_label": {
+            "UP": {
+              "precision": 0.3786407766990291,
+              "recall": 0.6724137931034483,
+              "f1": 0.484472049689441,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8192771084337349,
+              "recall": 0.6777408637873754,
+              "f1": 0.7418181818181818,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.18840579710144928,
+              "recall": 0.20967741935483872,
+              "f1": 0.19847328244274812,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 39,
+              "STABLE": 16,
+              "DOWN": 3
+            },
+            "STABLE": {
+              "UP": 44,
+              "STABLE": 204,
+              "DOWN": 53
+            },
+            "DOWN": {
+              "UP": 20,
+              "STABLE": 29,
+              "DOWN": 13
+            }
+          }
+        },
+        "regression": {
+          "mae": 6.959619952494061,
+          "rmse": 11.500490539987089
+        },
+        "rows": 421
+      }
+    },
+    "logistic_regression": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5763513513513514,
+          "macro_f1": 0.5650037240669318,
+          "balanced_accuracy": 0.5903016230415611,
+          "per_label": {
+            "UP": {
+              "precision": 0.5012106537530266,
+              "recall": 0.6088235294117647,
+              "f1": 0.549800796812749,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6764705882352942,
+              "recall": 0.5502392344497608,
+              "f1": 0.6068601583113458,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.4806201550387597,
+              "recall": 0.6118421052631579,
+              "f1": 0.5383502170767005,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 207,
+              "STABLE": 110,
+              "DOWN": 23
+            },
+            "STABLE": {
+              "UP": 198,
+              "STABLE": 460,
+              "DOWN": 178
+            },
+            "DOWN": {
+              "UP": 8,
+              "STABLE": 110,
+              "DOWN": 186
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.937231174244196,
+          "rmse": 11.622405983035254
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "C": 0.1,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "C": 0.1,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.672209026128266,
+          "macro_f1": 0.5136405542167307,
+          "balanced_accuracy": 0.5394525971394326,
+          "per_label": {
+            "UP": {
+              "precision": 0.3300970873786408,
+              "recall": 0.5862068965517241,
+              "f1": 0.422360248447205,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8381294964028777,
+              "recall": 0.7740863787375415,
+              "f1": 0.8048359240069085,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.4,
+              "recall": 0.25806451612903225,
+              "f1": 0.3137254901960784,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 34,
+              "STABLE": 23,
+              "DOWN": 1
+            },
+            "STABLE": {
+              "UP": 45,
+              "STABLE": 233,
+              "DOWN": 23
+            },
+            "DOWN": {
+              "UP": 24,
+              "STABLE": 22,
+              "DOWN": 16
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.707956050134161,
+          "rmse": 8.893804086342488
+        },
+        "rows": 421
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.6081081081081081,
+          "macro_f1": 0.5862885067143389,
+          "balanced_accuracy": 0.5979887888169623,
+          "per_label": {
+            "UP": {
+              "precision": 0.5531914893617021,
+              "recall": 0.5352941176470588,
+              "f1": 0.5440956651718983,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6826424870466321,
+              "recall": 0.6303827751196173,
+              "f1": 0.6554726368159205,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.503957783641161,
+              "recall": 0.6282894736842105,
+              "f1": 0.5592972181551977,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 182,
+              "STABLE": 136,
+              "DOWN": 22
+            },
+            "STABLE": {
+              "UP": 143,
+              "STABLE": 527,
+              "DOWN": 166
+            },
+            "DOWN": {
+              "UP": 4,
+              "STABLE": 109,
+              "DOWN": 191
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.010782833593668,
+          "rmse": 11.856031844476734
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "min_samples_leaf": 15,
+          "max_depth": 6,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "min_samples_leaf": 8,
+          "max_depth": null,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.672209026128266,
+          "macro_f1": 0.5438021531302643,
+          "balanced_accuracy": 0.5936459484329211,
+          "per_label": {
+            "UP": {
+              "precision": 0.3853211009174312,
+              "recall": 0.7241379310344828,
+              "f1": 0.5029940119760479,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8735177865612648,
+              "recall": 0.7342192691029901,
+              "f1": 0.7978339350180506,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.3389830508474576,
+              "recall": 0.3225806451612903,
+              "f1": 0.3305785123966942,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 42,
+              "STABLE": 13,
+              "DOWN": 3
+            },
+            "STABLE": {
+              "UP": 44,
+              "STABLE": 221,
+              "DOWN": 36
+            },
+            "DOWN": {
+              "UP": 23,
+              "STABLE": 19,
+              "DOWN": 20
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.6288871534182725,
+          "rmse": 8.906776744008596
+        },
+        "rows": 421
+      }
+    },
+    "gradient_boosting": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5891891891891892,
+          "macro_f1": 0.5749879609058072,
+          "balanced_accuracy": 0.5965944272445821,
+          "per_label": {
+            "UP": {
+              "precision": 0.5295774647887324,
+              "recall": 0.5529411764705883,
+              "f1": 0.5410071942446043,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6778711484593838,
+              "recall": 0.5789473684210527,
+              "f1": 0.6245161290322581,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.48661800486618007,
+              "recall": 0.6578947368421053,
+              "f1": 0.5594405594405594,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 188,
+              "STABLE": 130,
+              "DOWN": 22
+            },
+            "STABLE": {
+              "UP": 163,
+              "STABLE": 484,
+              "DOWN": 189
+            },
+            "DOWN": {
+              "UP": 4,
+              "STABLE": 100,
+              "DOWN": 200
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.216837019721089,
+          "rmse": 12.147451583529758
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "n_estimators": 60,
+          "max_depth": 1,
+          "learning_rate": 0.03,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "n_estimators": 60,
+          "max_depth": 2,
+          "learning_rate": 0.1,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6294536817102138,
+          "macro_f1": 0.5065514158598323,
+          "balanced_accuracy": 0.546244935618141,
+          "per_label": {
+            "UP": {
+              "precision": 0.3894736842105263,
+              "recall": 0.6379310344827587,
+              "f1": 0.4836601307189542,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8260869565217391,
+              "recall": 0.6943521594684385,
+              "f1": 0.7545126353790614,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.2602739726027397,
+              "recall": 0.3064516129032258,
+              "f1": 0.28148148148148144,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 37,
+              "STABLE": 18,
+              "DOWN": 3
+            },
+            "STABLE": {
+              "UP": 41,
+              "STABLE": 209,
+              "DOWN": 51
+            },
+            "DOWN": {
+              "UP": 17,
+              "STABLE": 26,
+              "DOWN": 19
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.800420828597131,
+          "rmse": 8.970280824751226
+        },
+        "rows": 421
+      }
+    },
+    "svm": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5702702702702702,
+          "macro_f1": 0.5602238252254751,
+          "balanced_accuracy": 0.5872947743690777,
+          "per_label": {
+            "UP": {
+              "precision": 0.5098039215686274,
+              "recall": 0.611764705882353,
+              "f1": 0.5561497326203209,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6716417910447762,
+              "recall": 0.5382775119617225,
+              "f1": 0.5976095617529881,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.4626865671641791,
+              "recall": 0.6118421052631579,
+              "f1": 0.5269121813031162,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 208,
+              "STABLE": 108,
+              "DOWN": 24
+            },
+            "STABLE": {
+              "UP": 194,
+              "STABLE": 450,
+              "DOWN": 192
+            },
+            "DOWN": {
+              "UP": 6,
+              "STABLE": 112,
+              "DOWN": 186
+            }
+          }
+        },
+        "regression": {
+          "mae": 7.727906313998596,
+          "rmse": 11.525753222920914
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "kernel": "linear",
+          "C": 0.1,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "kernel": "linear",
+          "C": 1.0,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6603325415676959,
+          "macro_f1": 0.5029891676950501,
+          "balanced_accuracy": 0.5342862809298383,
+          "per_label": {
+            "UP": {
+              "precision": 0.3125,
+              "recall": 0.603448275862069,
+              "f1": 0.4117647058823529,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8413284132841329,
+              "recall": 0.7574750830564784,
+              "f1": 0.7972027972027972,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.39473684210526316,
+              "recall": 0.24193548387096775,
+              "f1": 0.3,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 35,
+              "STABLE": 22,
+              "DOWN": 1
+            },
+            "STABLE": {
+              "UP": 51,
+              "STABLE": 228,
+              "DOWN": 22
+            },
+            "DOWN": {
+              "UP": 26,
+              "STABLE": 21,
+              "DOWN": 15
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.2849376222696325,
+          "rmse": 8.491677763135707
+        },
+        "rows": 421
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5993243243243244,
+          "macro_f1": 0.5859170530725762,
+          "balanced_accuracy": 0.6087426118772868,
+          "per_label": {
+            "UP": {
+              "precision": 0.5418848167539267,
+              "recall": 0.6088235294117647,
+              "f1": 0.5734072022160664,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6947218259629101,
+              "recall": 0.5825358851674641,
+              "f1": 0.6337020169160703,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.48614609571788414,
+              "recall": 0.6348684210526315,
+              "f1": 0.550641940085592,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 207,
+              "STABLE": 108,
+              "DOWN": 25
+            },
+            "STABLE": {
+              "UP": 170,
+              "STABLE": 487,
+              "DOWN": 179
+            },
+            "DOWN": {
+              "UP": 5,
+              "STABLE": 106,
+              "DOWN": 193
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.069022743512146,
+          "rmse": 12.011099767900204
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "reg_lambda": 1.0,
+          "max_depth": 2,
+          "learning_rate": 0.03,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "reg_lambda": 1.0,
+          "max_depth": 2,
+          "learning_rate": 0.03,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6294536817102138,
+          "macro_f1": 0.5067212874576914,
+          "balanced_accuracy": 0.5605348381430333,
+          "per_label": {
+            "UP": {
+              "precision": 0.36936936936936937,
+              "recall": 0.7068965517241379,
+              "f1": 0.48520710059171596,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8547717842323651,
+              "recall": 0.6843853820598007,
+              "f1": 0.7601476014760148,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.2608695652173913,
+              "recall": 0.2903225806451613,
+              "f1": 0.2748091603053435,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 41,
+              "STABLE": 14,
+              "DOWN": 3
+            },
+            "STABLE": {
+              "UP": 47,
+              "STABLE": 206,
+              "DOWN": 48
+            },
+            "DOWN": {
+              "UP": 23,
+              "STABLE": 21,
+              "DOWN": 18
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.642306842051464,
+          "rmse": 8.684722544128094
+        },
+        "rows": 421
+      }
+    },
+    "lightgbm": {
+      "validation": {
+        "classification": {
+          "accuracy": 0.5675675675675675,
+          "macro_f1": 0.549726210639745,
+          "balanced_accuracy": 0.5688326766113144,
+          "per_label": {
+            "UP": {
+              "precision": 0.5167597765363129,
+              "recall": 0.5441176470588235,
+              "f1": 0.5300859598853868,
+              "support": 340
+            },
+            "STABLE": {
+              "precision": 0.6666666666666666,
+              "recall": 0.5669856459330144,
+              "f1": 0.6127989657401421,
+              "support": 836
+            },
+            "DOWN": {
+              "precision": 0.44038929440389296,
+              "recall": 0.5953947368421053,
+              "f1": 0.5062937062937064,
+              "support": 304
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 185,
+              "STABLE": 123,
+              "DOWN": 32
+            },
+            "STABLE": {
+              "UP": 164,
+              "STABLE": 474,
+              "DOWN": 198
+            },
+            "DOWN": {
+              "UP": 9,
+              "STABLE": 114,
+              "DOWN": 181
+            }
+          }
+        },
+        "regression": {
+          "mae": 8.085096363415593,
+          "rmse": 12.04851959947461
+        },
+        "rows": 1480
+      },
+      "params": {
+        "classifier": {
+          "num_leaves": 7,
+          "min_child_samples": 10,
+          "learning_rate": 0.03,
+          "balance_alpha": 0.5
+        },
+        "regressor": {
+          "num_leaves": 7,
+          "min_child_samples": 10,
+          "learning_rate": 0.03,
+          "balance_alpha": 0.0
+        }
+      },
+      "status": "READY",
+      "test": {
+        "classification": {
+          "accuracy": 0.6247030878859857,
+          "macro_f1": 0.502444667525873,
+          "balanced_accuracy": 0.5579492163681314,
+          "per_label": {
+            "UP": {
+              "precision": 0.3305785123966942,
+              "recall": 0.6896551724137931,
+              "f1": 0.446927374301676,
+              "support": 58
+            },
+            "STABLE": {
+              "precision": 0.8680851063829788,
+              "recall": 0.6777408637873754,
+              "f1": 0.7611940298507464,
+              "support": 301
+            },
+            "DOWN": {
+              "precision": 0.2923076923076923,
+              "recall": 0.3064516129032258,
+              "f1": 0.2992125984251969,
+              "support": 62
+            }
+          },
+          "confusion_matrix": {
+            "UP": {
+              "UP": 40,
+              "STABLE": 13,
+              "DOWN": 5
+            },
+            "STABLE": {
+              "UP": 56,
+              "STABLE": 204,
+              "DOWN": 41
+            },
+            "DOWN": {
+              "UP": 25,
+              "STABLE": 18,
+              "DOWN": 19
+            }
+          }
+        },
+        "regression": {
+          "mae": 5.55969846281559,
+          "rmse": 8.808472957364433
+        },
+        "rows": 421
+      }
+    }
+  },
+  "skipped": {},
+  "warnings": [
+    "Historical Google Trends is a retrospectively normalized snapshot. This is a backtest, not prospective evidence.",
+    "Recommendation tuning optimizes directional F1, not profit. ML probabilities remain uncalibrated; winning baselines use empirical validation reliability.",
+    "2904 window rows excluded from classification for missing features, immature targets or zero robust variability. See coverage."
+  ],
+  "folds": [
+    {
+      "train_origin_end": "2026-07-25 00:00:00+00:00",
+      "train_target_end": "2026-07-27 00:00:00+00:00",
+      "validation_origin_start": "2026-07-28 00:00:00+00:00",
+      "train_rows": 460,
+      "validation_rows": 469
+    },
+    {
+      "train_origin_end": "2026-08-09 00:00:00+00:00",
+      "train_target_end": "2026-08-11 00:00:00+00:00",
+      "validation_origin_start": "2026-08-12 00:00:00+00:00",
+      "train_rows": 935,
+      "validation_rows": 490
+    },
+    {
+      "train_origin_end": "2026-08-24 00:00:00+00:00",
+      "train_target_end": "2026-08-26 00:00:00+00:00",
+      "validation_origin_start": "2026-08-27 00:00:00+00:00",
+      "train_rows": 1417,
+      "validation_rows": 521
+    }
+  ],
+  "threshold_settings": {
+    "method": "mad",
+    "lookback_days": 21,
+    "multiplier": 1.0,
+    "percentile": 0.75,
+    "auto_select": false,
+    "candidate_methods": [
+      "mad",
+      "iqr",
+      "zscore",
+      "percentile"
+    ]
+  },
+  "threshold_comparison": [
+    {
+      "method": "mad",
+      "validation_macro_f1": 0.517162147395401,
+      "validation_balanced_accuracy": 0.6068908903274228,
+      "labeled_rows": 2496,
+      "excluded_rows": 2904,
+      "class_counts": {
+        "STABLE": 1441,
+        "UP": 544,
+        "DOWN": 511
+      },
+      "status": "READY"
+    },
+    {
+      "method": "iqr",
+      "validation_macro_f1": 0.4460159299854434,
+      "validation_balanced_accuracy": 0.6171796271838531,
+      "labeled_rows": 2496,
+      "excluded_rows": 2904,
+      "class_counts": {
+        "STABLE": 1921,
+        "DOWN": 293,
+        "UP": 282
+      },
+      "status": "READY"
+    },
+    {
+      "method": "zscore",
+      "validation_macro_f1": 0.4993199798938255,
+      "validation_balanced_accuracy": 0.6175312778166354,
+      "labeled_rows": 3068,
+      "excluded_rows": 2332,
+      "class_counts": {
+        "STABLE": 2162,
+        "UP": 468,
+        "DOWN": 438
+      },
+      "status": "READY"
+    },
+    {
+      "method": "percentile",
+      "validation_macro_f1": 0.45116173878768207,
+      "validation_balanced_accuracy": 0.6256692176047015,
+      "labeled_rows": 2701,
+      "excluded_rows": 2699,
+      "class_counts": {
+        "STABLE": 2096,
+        "UP": 305,
+        "DOWN": 300
+      },
+      "status": "READY"
+    }
+  ]
+}
